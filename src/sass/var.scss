@@ -1,0 +1,15 @@
+$blue: #0379fd;
+$black: black;
+$white: white;
+$grey: #8b8a8a;
+
+@mixin h {
+    &::after {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 80px;
+        background-color: $blue;
+        margin-top: 10px;
+    }
+}
