@@ -2,46 +2,7 @@
 @import 'base';
 @import 'header';
 @import 'services';
-
-.advantage {
-
-    &__bg {
-        //background-color: #f5f5f5;
-        position: relative;
-        //background-color: #f5f5f5;
-        padding: 30px 0;
-    }
-
-    &__h2 {
-        margin-bottom: 40px;
-    }
-
-    &__box {
-        text-align: center;
-        width: 250px;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid $blue;
-    }
-
-    &__img {
-        position: absolute;
-        top: -110px;
-    }
-
-    &__p {
-        font-size: 20px;
-    }
-
-    &__svg {
-        margin-bottom: 10px;
-    }
-}
-
-.file {
-    width: 60px;
-    height: 60px;
-}
+@import 'advantage';
+@import 'about';
+@import 'news';
+@import 'footer';

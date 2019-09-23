@@ -1,0 +1,11 @@
+.about {
+  padding-bottom: 90px; }
+  .about__h2 {
+    margin-bottom: 35px; }
+  .about__p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 23px;
+    color: #636363; }
+    .about__p:last-child {
+      margin-bottom: 0; }

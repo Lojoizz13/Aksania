@@ -1,0 +1,33 @@
+.footer {
+    min-height: 100px;
+    background-color: $black;
+    display: flex;
+    align-items: center;
+
+    &-p1 {
+        color: $white;
+    }
+
+    &__svg {
+        height: 30px;
+        margin-right: 15px;
+    }
+
+    &__phone {
+        color: $white;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .footer__phone {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer__phone, .footer__svg {
+        display: none;
+    }
+}
