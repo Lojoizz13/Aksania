@@ -1,14 +1,24 @@
 .about {
-    padding-bottom: 90px;
+    padding-bottom: 120px;
+    position: relative;
+    &__logo {
+        position: absolute;
+        left: 0;
+        top: 80px;
+    }
+    
     &__h2 {
         margin-bottom: 35px;
+        text-align: right;
         
         &:after {
             width: 370px;
+            margin-left: auto;
         }
     }
 
     &__p {
+        text-align: right;
         font-size: 15px;
         line-height: 23px;
         margin-bottom: 23px;
@@ -21,7 +31,9 @@
 }
 
 @media (max-width: 1199.98px) {
-
+    .about__logo {
+        display: none;  
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -31,6 +43,10 @@
 }
 
 @media (max-width: 767.98px) {
+    .about__p {
+        text-align: left;
+    }
+
     .about__h2 {
         text-align: center;
 
@@ -43,6 +59,12 @@
 
 @media (max-width: 575.98px) {
     .about__p3, .about__p4 {
+        display: none;
+    }
+}
+
+@media (max-width: 465px) {
+    .about__p2 {
         display: none;
     }
 }
